@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4476977412253133306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4476977412253133304}
+  - component: {fileID: 4476977412253133305}
+  m_Layer: 0
+  m_Name: BagArmorBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4476977412253133304
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4476977412253133306}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1421.3898, y: 931.3741, z: -25.77086}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4476977412253133305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4476977412253133306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc821b0accaa99a4abc6041a081a5561, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDB:
+  - itemType: 1
+    detailType: 2
+    itemName: Sheild
+    itemImage: {fileID: 7002550136855785495, guid: 1a896cbaf759e3b4aaf83837fea778ae, type: 3}
+    itemStack: 25
+    efts: []
+    sortValue: 25
+    evolve: 0
+    price: 0
+  - itemType: 1
+    detailType: 3
+    itemName: Bag
+    itemImage: {fileID: -1071554708256164285, guid: 1511d6a715e907c44aec8b071770d492, type: 3}
+    itemStack: 2
+    efts: []
+    sortValue: 2
+    evolve: 0
+    price: 0
+  fielItemPrefab: {fileID: 7893143877262262910, guid: b7abca511713ed74ca928473aa629f6c, type: 3}
+  pos:
+  - {x: 3, y: 1, z: 1}
+  - {x: 3, y: 1, z: 3}
+  - {x: 3, y: 1, z: 5}
+  - {x: 3, y: 1, z: 7}
+  - {x: 3, y: 1, z: 9}
+  - {x: 3, y: 1, z: 11}
+  - {x: 3, y: 1, z: 13}
+  - {x: 3, y: 1, z: 15}
+  - {x: 3, y: 1, z: 17}
+  - {x: 3, y: 1, z: 19}
+  randomMin: 0
+  randomMax: 2
